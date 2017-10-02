@@ -1,4 +1,4 @@
-# Making an Audio Classifier to streamline call Center Management:
+# Making an Audio Classifier to streamline call Center Management
 
 During the past year, the price of storage media – and consequently, hard drives - has decreased significantly which has resulted in access to an unprecedented amount of information, that which has never been seen before. As that fact relates to this project, my goal was to streamline the communication strategies for customer service-facing businesses by creating an audio classifier designed to pinpoint instances of problematic communication (“bad” customer service) without requiring the actual listening of individual voice recordings from phone conversations.   
 
