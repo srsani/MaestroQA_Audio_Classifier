@@ -19,6 +19,7 @@ data = glob.glob("./Data/mp3/*.mp3")
 def mp3wav(file):
     
     sound = pydub.AudioSegment.from_mp3(file)
+    sound = sound.set_channels(1)
     file_neme_wav = re.search(r"[a-z]+_[0-9]+.mp3", file).group()[:-4]    
     sound.export("./Data/wav/"+"filename_"+file_neme_wav+"_len_"+str(len(sound))+"_rate_"+str(sound.frame_rate)+".wav", format="wav")
 
