@@ -65,8 +65,6 @@ if __name__ == '__main__':
     ## by uising tqdm we can see the progress of our script
     for _ in tqdm.tqdm(pool.map(audio_process, files) , total=len(files)):
         pass
-
-
-    
+        
     pool.close()
     pool.join()

@@ -15,7 +15,7 @@ import re
 df_shortcalls = pd.read_csv("metadata.csv.cvs")
 redo = [] ## Keep track of the missing files
 
-dic = {'id': [], 'fromame_rate':[] , 'length':[]}
+dic = {'id': [], 'frame_rate':[] , 'length':[]}
 
 for a in tqdm(range(1,len(df_shortcalls))):
     '''To make sure that I have downloaded all the files from S3 I will first
